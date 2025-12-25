@@ -5,8 +5,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Student Management System</h2>
-    <a href="add.php">Add Student</a> |
-    <a href="view.php">View Students</a>
+
+<div class="home-container">
+    <h1>Student Management System</h1>
+
+    <div class="menu">
+        <a href="add.php" class="btn">Add Student</a>
+        <a href="view.php" class="btn">View Students</a>
+    </div>
+</div>
 </body>
 </html>
